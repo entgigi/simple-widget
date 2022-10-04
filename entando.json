@@ -1,0 +1,24 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "simple-widget",
+            "customElement": "simple-widget",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "titles": {
+                "en": "Simple widget",
+                "it": "Widget semplice"
+            },
+            "commands": {
+                "run": "npm install && PORT=3001 npm start"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "simple-widget",
+    "version": "0.0.1",
+    "description": "my-simple-react-widget description",
+    "type": "bundle"
+}
